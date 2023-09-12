@@ -7,7 +7,7 @@
 /*BODY*/
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: red;
+    background-color: lightgray;
 }
 /*HEADER*/
 header{
@@ -44,12 +44,13 @@ main{
 }
 
 /*BUTTONS*/
-.buttons{
+.buttons-section{
     vertical-align: middle;
-    line-height: 100px;
+    line-height: 50px;
     background-color: white;
     margin-bottom: 10px;
     padding-left: 20px;
+    border-radius: 10px;
 }
 
 .add-button{
@@ -78,6 +79,7 @@ main{
     color: #444851;
     vertical-align: middle;
     font-weight: bold;
+    border-radius: 10px;
 }
 
 .tasks-list{
@@ -101,7 +103,7 @@ main{
     width: 5px;
     height: 5px;
     background-color: white;
-    border-radius: 80%;
+    border-radius: 100px;
     border-width: 1px;
     border-style: solid;
     text-align: center;
@@ -119,9 +121,10 @@ main{
     border-color: red;
 }
 
+/*TASK TAGS*/
 .task-tag{
     border: 1px solid lightgray;
-    border-radius: 25%;
+    border-radius: 80px;
     padding: 5px 10px;
     margin: 5px;
     font-size: 11px;
@@ -130,5 +133,30 @@ main{
 
 .task-tag.editorial-tag{
     background-color: #47adf1;
+    color: white;
+}
+
+.task-tag.q1goals-tag{
+    background-color: #9c72e4;
+    color: white;
+}
+
+.task-tag.recruiting-tag{
+    background-color: #64c0a9;
+    color: white;
+}
+
+.task-tag.mobile-tag{
+    background-color: #f29e33;
+    color: white;
+}
+
+.task-tag.website-tag{
+    background-color: #d863a1;
+    color: white;
+}
+
+.task-tag.sales-tag{
+    background-color: #b0c926;
     color: white;
 }
