@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /*BODY*/
@@ -8,7 +9,7 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: red;
 }
-
+/*HEADER*/
 header{
     background-color: white;
 }
@@ -17,12 +18,15 @@ h1{
     display: inline-block;
 }
 
-.banner{
+/*LOGO*/
+.logo{
     width: 80%;
     font-size: 24px;
     margin: 0 auto;
+    vertical-align: middle;
+    line-height: 100px;
 }
-
+/*
 .logo{
     vertical-align: middle;
     width: 50px;
@@ -31,4 +35,45 @@ h1{
 .logo-text{
     vertical-align: middle;
     line-height: 100px;
+}*/
+
+/*MAIN*/
+main{
+    width: 50%;
+    margin: 50px auto;
+}
+
+/*BUTTONS*/
+.buttons{
+    vertical-align: middle;
+    line-height: 100px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.add-button{
+    border: 1px solid lightgray;
+    border-radius: 15%;
+    padding: 5px;
+    margin: 5px;
+    font-size: small;
+    font-weight: bold;
+    color: lightgray;
+}
+
+.add-button.add-task{
+    background-color: #47adf1;
+    color: white;
+}
+
+/*TASKS*/
+.tasks{
+    vertical-align: middle;
+    line-height: 100px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.tasks-list{
+    list-style-type: none;
 }
