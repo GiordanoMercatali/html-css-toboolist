@@ -18,15 +18,15 @@ h1{
     display: inline-block;
 }
 
-/*LOGO*/
-.logo{
+/*BANNER*/
+.banner{
     width: 80%;
     font-size: 24px;
     margin: 0 auto;
     vertical-align: middle;
     line-height: 100px;
 }
-/*
+
 .logo{
     vertical-align: middle;
     width: 50px;
@@ -35,7 +35,7 @@ h1{
 .logo-text{
     vertical-align: middle;
     line-height: 100px;
-}*/
+}
 
 /*MAIN*/
 main{
@@ -49,6 +49,7 @@ main{
     line-height: 100px;
     background-color: white;
     margin-bottom: 10px;
+    padding-left: 20px;
 }
 
 .add-button{
@@ -69,11 +70,65 @@ main{
 /*TASKS*/
 .tasks{
     vertical-align: middle;
-    line-height: 100px;
+    line-height: 40px;
     background-color: white;
     margin-bottom: 10px;
+    padding-left: 20px;
+    font-size: medium;
+    color: #444851;
+    vertical-align: middle;
+    font-weight: bold;
 }
 
 .tasks-list{
     list-style-type: none;
+}
+
+.arrow-down {
+    width: 0; 
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #444851;
+  }
+
+.main-point{
+    font-weight: bolder;
+    margin-top: 20px;
+  }
+
+.list-marker{
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border-radius: 80%;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+    padding: 2px;
+    margin-right: 10px;
+}
+
+.list-marker.check{
+    color: green;
+    border-color: green;
+}
+
+.list-marker.cross{
+    color: red;
+    border-color: red;
+}
+
+.task-tag{
+    border: 1px solid lightgray;
+    border-radius: 25%;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 11px;
+    color: lightgray;
+}
+
+.task-tag.editorial-tag{
+    background-color: #47adf1;
+    color: white;
 }

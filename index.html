@@ -13,9 +13,9 @@
         
         <!--Header-->
         <header>
-            <div class="logo">
-                <img src="img/Logo.png" alt="logo-boolean">
-                <h1> Toboolist </h1>
+            <div class="banner">
+                <img class="logo" src="img/Logo.png" alt="logo-boolean">
+                <h1 class="logo-text"> Toboolist </h1>
             </div>
         </header>
 
@@ -30,7 +30,35 @@
             <!--List of Tasks-->
             <div class="tasks">
                 <ul class="tasks-list">
-                    <li> Ciao </li>
+                    <!--New Task-->
+                    <li class="main-point">
+                        <span class="arrow-down"></span>
+                        <span> New Task </span>
+                    </li>
+                    <li>
+                        <ul class="tasks-list">
+                            <li>
+                                <span class="list-marker check"> &check; </span>
+                                <span> Quarterly Newsletter </span>
+                                <span class="task-tag editorial-tag"> Editorial </span>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!--Today's Tasks-->
+                    <li class="main-point">
+                        <span class="arrow-down"></span>
+                        <span> Today </span>
+                    </li>
+                    <li>
+                        <ul class="tasks-list">
+                            <li>
+                                <span class="list-marker check"> &check; </span>
+                                <span> Recruiting blog post </span>
+                                <span class="task-tag editorial-tag"> Editorial </span>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </main>
