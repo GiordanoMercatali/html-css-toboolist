@@ -39,7 +39,7 @@ h1{
 
 /*MAIN*/
 main{
-    width: 50%;
+    width: 60%;
     margin: 50px auto;
 }
 
@@ -75,6 +75,8 @@ main{
     background-color: white;
     margin-bottom: 10px;
     padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: medium;
     color: #444851;
     vertical-align: middle;
@@ -86,13 +88,13 @@ main{
     list-style-type: none;
 }
 
-.arrow-down {
+/* .arrow-down {
     width: 0; 
     height: 0;
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
     border-top: 5px solid #444851;
-  }
+  } */
 
 .main-point{
     font-weight: bolder;
@@ -100,15 +102,17 @@ main{
   }
 
 .list-marker{
-    width: 5px;
-    height: 5px;
+    width: 25px;
+    height: 25px;
     background-color: white;
     border-radius: 100px;
     border-width: 1px;
     border-style: solid;
     text-align: center;
-    padding: 2px;
+    padding: 1px;
     margin-right: 10px;
+    display: inline-block;
+    line-height: 25px;
 }
 
 .list-marker.check{
@@ -129,6 +133,8 @@ main{
     margin: 5px;
     font-size: 11px;
     color: lightgray;
+    display: inline-block;
+    line-height: 15px;
 }
 
 .task-tag.editorial-tag{
